@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#000066, lightblue);
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.board{
+    background: linear-gradient(#0000ff, #0000cc);
+    width: 30%;
+    min-width: 350px;
+    height: 96vh;
+    margin: 2vh auto;
+    box-shadow:5px 5px 10px black ;
+}
+
+.flexer{
+    display: flex;
+}
+
+/***** answer-container *****/
+
+.answer-container{
+    width: 100%;
+    height: 10%;
+    padding-top: 2%;
+}
+
+.answer-box{
+    width: 80%;
+    height: 100%;
+    margin-left: -2%;
+
+}
+
+.answer{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    background: linear-gradient(blue, #0000aa);
+    box-shadow: 2px 0 4px black;
+}
+
+.answer-peg{
+    width: 23%;
+    height: 90%;
+    border-radius: 50%;
+    margin-left: 2%;
+    background: linear-gradient(#000066, blue);
+}
+
+.button-container{
+    width: 30%;
+    height: 100%;
+
+}
+
+.submit-btn{
+    width: 80%;
+    height: 80%;
+    background: linear-gradient(#0000aa, blue);
+    margin: auto;
+    text-align: center;
+    line-height: 300%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px black;
+}
+
+.text{
+    margin: auto;
+    cursor: pointer;
+}
+
+/***** guess-container *****/
+
+.guess-container{
+    width: 100%;
+    height: 80%;
+}
+
+.guess-row{
+    box-sizing: border-box;
+    height: 10%;
+    width: 100%;
+    border-bottom: 1px solid #0000ff;
+}
+
+.guess-pegs{
+    height: 100%;
+    width: 70%;
+    padding: 0 5%;
+}
+
+.guess-peg{
+    width: 23%;
+    height: 90%;
+    border-radius: 50%;
+    margin-left: 2%;
+    background: linear-gradient(#000066, blue);
+}
+
+.grade-pegs{
+    height: 100%;
+    width: 30%;
+    flex-wrap: wrap;
+    padding: 0 2%;
+}
+
+.grade-peg{
+    background: linear-gradient(darkblue, #000066 , blue);
+    width: 27%;
+    height: 45%;
+    border-radius: 50%;
+    margin-left:  12%;
+}
+
+/***** selection-container *****/
+
+.selection-container{
+    width: 100%;
+    height: 10%;
+    padding-top: 2px;
+}
+
+.selector-outer{
+    width: 16%;
+    height: 80%;
+    border-radius: 50%;
+    margin: 0 .25px;
+    background-color: blue;
+}
+
+
+.selector-inner{
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    margin: 18% auto;
+}
+
+.selector-inner:hover{
+  cursor: pointer;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+.deeppink{
+    background-color: deeppink;
+}
