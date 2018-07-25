@@ -143,20 +143,20 @@ body{
 }
 
 .red{
-    background-color: red;
+    background: red;
 }
 .green{
-    background-color: green;
+    background: green;
 }
 .yellow{
-    background-color: yellow;
+    background: yellow;
 }
 .black{
-    background-color: black;
+    background: black;
 }
 .white{
-    background-color: white;
+    background: white;
 }
 .deeppink{
-    background-color: deeppink;
+    background: deeppink;
 }
