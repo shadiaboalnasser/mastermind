@@ -5,6 +5,23 @@ body{
     font-family: 'Fjalla One', sans-serif;
 }
 
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,255,0.5);
+    color: white;
+    display: none;
+}
+
+.modal-message{
+    width: 50%;
+    margin: 30% auto;
+    text-align: center;
+}
+
 .board{
     background: linear-gradient(#0000ff, #0000cc);
     width: 30%;
@@ -108,10 +125,10 @@ body{
 
 .grade-peg{
     background: linear-gradient(darkblue, #000066 , blue);
-    width: 27%;
+    width: 32%;
     height: 45%;
     border-radius: 50%;
-    margin-left:  12%;
+    margin-left:  6%;
 }
 
 /***** selection-container *****/
@@ -160,3 +177,4 @@ body{
 .deeppink{
     background: deeppink;
 }
+
